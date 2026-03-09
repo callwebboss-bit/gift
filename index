@@ -2,10 +2,18 @@
 <html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=creator.htmk">
     <title>מעביר דף...</title>
+
+    <meta http-equiv="refresh" content="0; url=creator.htm">
+
+    <script type="text/javascript">
+        window.location.href = "creator.html";
+    </script>
 </head>
 <body>
-    <p>אם לא הועברת אוטומטית, <a href="creator.html">לחץ כאן</a>.</p>
+    <div style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+        <h2>מעביר אותך לדף היוצר...</h2>
+        <p>אם הדף לא נטען תוך מספר שניות, <a href="creator.html">לחץ כאן למעבר ידני</a>.</p>
+    </div>
 </body>
 </html>
